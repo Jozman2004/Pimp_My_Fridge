@@ -8,7 +8,7 @@
     </parent>
 
     <artifactId>Vue</artifactId>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
 
     <name>Vue</name>
     <url>http://maven.apache.org</url>

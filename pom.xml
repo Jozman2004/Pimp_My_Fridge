@@ -10,11 +10,11 @@
   <name>Pimp_My_Fridge</name>
   <url>http://maven.apache.org</url>
   <modules>
+    <module>Contract</module>
     <module>Controller</module>
     <module>Model</module>
-    <module>View</module>
+    <module>Vue</module>
     <module>Main</module>
-    <module>Contract</module>
   </modules>
 
   <properties>

@@ -9,8 +9,8 @@
     <file url="file://$PROJECT_DIR$/Main/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Model/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Model/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/View/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/View/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Vue/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Vue/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>

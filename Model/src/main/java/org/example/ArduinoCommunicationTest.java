@@ -1,14 +1,14 @@
 package org.example;
 
-public class ArduinoDataReceiver {
+public class ArduinoCommunicationTest {
     public static void main(String[] args) {
         SerialCommunication serialCommunication = new SerialCommunication();
 
         // Test des ports série disponibles
         serialCommunication.testSerialPorts();
 
-        // Sélectionnez le port que vous souhaitez utiliser (remplacez "COMX" par le nom du port)
-        String selectedPort = "COM13";
+        // Remplacez "COMX" par le nom du port où est connecté Arduino
+        String selectedPort = "COM14"; // Exemple, remplacez par le port réel utilisé par votre Arduino
 
         // Lisez et affichez les données du port série
         readAndDisplayArduinoData(serialCommunication, selectedPort);
@@ -20,14 +20,14 @@ public class ArduinoDataReceiver {
             // Lisez une ligne de données du port série
             String data = serialCommunication.readData(portName);
 
-            // Affichez les données dans la console IntelliJ si des données sont présentes
+            // Affichez les données si elles sont présentes
             if (!data.isEmpty()) {
-                System.out.println("Données reçues : " + data);
+                System.out.println("Données reçues depuis Arduino : " + data);
             }
 
             // Attendez un court instant (ajustez si nécessaire)
             try {
-                Thread.sleep(500);
+                Thread.sleep(1000); // Attendre 1 seconde entre chaque lecture
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
